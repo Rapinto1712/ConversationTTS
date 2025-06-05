@@ -1,4 +1,4 @@
-<img src="assets/logo.png">
+<!-- <img src="assets/logo.png"> -->
 <h3  align="center"> ConversationTTS: A Speech Foundation Model for Multilingual Conversational Text-to-Speech</h3>
 
 
