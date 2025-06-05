@@ -25,6 +25,7 @@ Please refer to the following documents to prepare the data, train the model, an
 - [Dading Cong]
 - [Jiankun Zhao]
 - [Yuanyuan Wang]
+- [Helin Wang]
 
 ## Citation
 
