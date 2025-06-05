@@ -1,0 +1,9 @@
+# python data_scripts/text_tokenization_reverse.py --rank 61 --input-file /turing_music_fs/music_data/ydc/exp_data/speech_lm/wenet/wenetspeech_process/train/64splits/text_2.61.pt --output-file /turing_music_fs/music_data/ydc/exp_data/speech_lm/wenet/wenetspeech_process/train/64splits/text_reverse.61.pt --checkpoint_dir /turing_music_fs/music_data/ydc/checkpoints/llama3_2 
+# Started at Sat May 31 03:06:41 UTC 2025
+#
+2025-05-31 03:06:44,911 INFO [text_tokenization_reverse.py:40] Text tokenizer built
+/root/code2/CSM_v2/egs/pretraining/data_scripts/text_tokenization_reverse.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  text_tokens = torch.load(args.input_file)
+2025-05-31 03:07:23,959 INFO [text_tokenization_reverse.py:58] processed 39.04723358154297 seconds
+# Accounting: time=43 threads=1
+# Ended (code 0) at Sat May 31 03:07:24 UTC 2025, elapsed time 43 seconds
