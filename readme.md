@@ -5,6 +5,13 @@
 ## Introduction
 
 We release the training and inference code for ConversationTTS. Also, we release the first checkpoint, which trained on 1.5 epoch on about 20w hours speech data.
+### V1: 1B-20w-1.5epoch
+wget https://huggingface.co/AudioFoundation/SpeechFoundation/resolve/main/ckpt1.checkpoint
+
+### Data
+We use large-scale TTS data, such as Emili-Yodas, wenetspeech, MLS, People speech.
+We collect a lot of podcast dataset, including English, Chinese, Cantonese. We use different speaker label (e.g. [1], [2]) to indicates different speaker.
+The first version is only trained on 20w hours data. We will update the checkpoints trained on more then 50w hours data.
 
 ## Usage
 ### ⚡ Quick Start  
